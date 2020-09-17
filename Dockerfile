@@ -4,7 +4,7 @@
 
 FROM alpine:latest
 
-ARG GLIBC_VER="2.31-r0"
+ARG GLIBC_VER="2.32-r0"
 ENV GLIBC_URL https://github.com/sgerrand/alpine-pkg-glibc/releases/download/${GLIBC_VER}/glibc-${GLIBC_VER}.apk
 ENV GLIBCBIN_URL https://github.com/sgerrand/alpine-pkg-glibc/releases/download/${GLIBC_VER}/glibc-bin-${GLIBC_VER}.apk
 ENV RRSHARE_URL http://appdown.rrys.tv/rrshareweb_centos7.tar.gz
